@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-square {
+    width: 1000px; /* измените ширину квадрата */
+    height: 1000px; /* измените высоту квадрата */
+    background-color: black;
+    position: relative;
+}
+
+#counter {
+    position: absolute;
+    top: 700px;
+    right: 300px;
+    color: rgb(255, 255, 255);
+}
+
+    
+#counters {
+    position: absolute;
+    top: 330px;
+    right: 720px;
+    color: rgb(255, 255, 255)
+}
